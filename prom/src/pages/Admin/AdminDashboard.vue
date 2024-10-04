@@ -1,4 +1,7 @@
 <!-- AdminDashboard.vue -->
+<script setup>
+import Login from '../Login.vue';
+</script>
 <template>
   <div>
     <h1>Admin Dashboard</h1>

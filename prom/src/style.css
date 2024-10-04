@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button{
+  width: 140px;
+  height: 48px;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(171, 87, 45);
+}
+.button:hover{
+  opacity: 0.8;
+}
+.price{
+  font-size: 23px;
+  color: rgb(171, 87, 45);;
+}
